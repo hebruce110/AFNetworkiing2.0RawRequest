@@ -18,7 +18,6 @@
     [VWebService setIsAgreedParameterFormat:NO];
     [VWebService setIsAgreedResponseContentFormat:NO];
     [VWebService setAdditionParameters:@{@"msgversion": kAppVersion,@"transactionid":@"1407982887012",@"sender":@"atq_mobile_ios_6.0_28hsaj249sh84h"}]; //设置公用参数,设置了后，所有的接口都会有这些参数
-    
     return YES;
 }
 
